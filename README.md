@@ -42,6 +42,9 @@ git checkout -b calc
 # To get changes from remote server
 git pull
 
+git ls-remote
+
+git checkout origin/laptop_branch
+
 ```
-Info from VBOX debian
-And some text from Windows
+
