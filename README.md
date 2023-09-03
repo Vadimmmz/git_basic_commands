@@ -35,4 +35,8 @@ git checkout fix-me
 
 # seeing difference between files that consist in different branches
 git diff
+
+# For creating new banch and checkout on it
+git checkout -b calc
+
 ```
