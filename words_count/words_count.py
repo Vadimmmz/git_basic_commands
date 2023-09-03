@@ -1,4 +1,5 @@
 import argparse
+# Changes from web IDE
 
 def count(text: str) -> int:
     return len(text.split(" "))
