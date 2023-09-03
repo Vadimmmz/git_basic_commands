@@ -43,3 +43,4 @@ git checkout -b calc
 git pull
 
 ```
+Info from VBOX debian
