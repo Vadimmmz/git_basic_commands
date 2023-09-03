@@ -23,6 +23,6 @@ if __name__ == '__main__':
             else:
                 print("-a parameter not recieved, you should declare -a parameter ")
     except(TypeError):
-        print('a and b must be integer')
+        print('Need to be changed')
     except(ValueError):
-        print('a and b must be integer')
+        print('Need to be changed')
