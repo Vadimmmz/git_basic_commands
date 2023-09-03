@@ -39,7 +39,7 @@ git diff
 # For creating new banch and checkout on it
 git checkout -b calc
 
-# Test command
-
+# To get changes from remote server
+git pull
 
 ```
