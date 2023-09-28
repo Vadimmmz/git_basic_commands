@@ -42,9 +42,11 @@ git checkout -b calc
 # To get changes from remote server
 git pull
 
+# For connect to remote branch
 git ls-remote
-
 git checkout origin/laptop_branch
 
+# For restore the working tree files with the content from the given tree 
+git restore .
 ```
 
