@@ -21,16 +21,17 @@ git remote add origin 'httpadress.git'
 git push --set-upstream origin main
 
 
-# создание ветки 
+# Make a new branch / создание ветки 
 git branch fix-me
 
-# удаление ветки
+# Branch deleting / удаление ветки
 git branch -D fix-me 
 
-# просмотр всех веток
+# view all branches / просмотр всех веток
 git branch
 
-# переключениена новую ветку
+# switching to adifferent branch / переключение на новую ветку
+got switch fix-me
 git checkout fix-me 
 
 # seeing difference between files that consist in different branches
@@ -48,5 +49,6 @@ git checkout origin/laptop_branch
 
 # For restore the working tree files with the content from the given tree 
 git restore .
+git restore <filename>
 ```
 
