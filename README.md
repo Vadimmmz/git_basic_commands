@@ -39,6 +39,7 @@ git diff
 
 # For creating new banch and checkout on it
 git checkout -b calc
+git switch -c calc
 
 # To get changes from remote server
 git pull
@@ -50,5 +51,14 @@ git checkout origin/laptop_branch
 # For restore the working tree files with the content from the given tree 
 git restore .
 git restore <filename>
+
+# Show settings
+git config --list
+
+# Show name of current user
+git config --show-origin --get user.name
 ```
+
+
+
 
