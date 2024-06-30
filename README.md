@@ -1,14 +1,14 @@
-**Git commands**
+## Useful websites
+- [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
 
-This text was written instead first test.
-Send from window10 on laptop.
-
+## **Git commands**
 ```bash 
 git init
 git status
 echo "venv" > .gitigore
 echo "Message1\nTestmessage2" >> .gitignore
 
+# To add all files in git
 git add .
 
     
@@ -60,6 +60,13 @@ git config --list
 
 # Show name of current user
 git config --show-origin --get user.name
+
+# To watch history of commits
+git log
+
+# to see difference between HEAD and the current file state or a definite commit
+git diff <filename>
+git diff <commit id>
 ```
 
 
