@@ -67,6 +67,9 @@ git log
 # to see difference between HEAD and the current file state or a definite commit
 git diff <filename>
 git diff <commit id>
+
+# roll back the commit,but leave the changes in the working directory
+git reset --mixed  <commit id>
 ```
 
 
