@@ -72,6 +72,11 @@ git diff <commit id>
 git reset --mixed  <commit id>
 ```
 
+show the difference in the number of changed rows between two commits / показать разницу в количестве измененных строк между двумя коммитами
+```bash
+git diff --stat <first_commit_id> <second_commit_id>
+```
+
 
 
 
